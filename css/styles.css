@@ -7,7 +7,7 @@ body {
 }
 
 .bg-grey {
-  background-color: #FCFCFC;
+  background-color: #FDFDFD;
 }
 
 .image-box {
@@ -16,12 +16,26 @@ body {
 
 .text-box{
   padding: 10%;
+  box-sizing: padding-box;
+}
+
+.image-text {
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
+.job-text {
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .job-box {
   border-radius: 5px;
   background-color: #FFFFFF;
-  padding: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
   margin: 1rem;
   -moz-box-shadow: 0 0 30px 1px #CCCCCC;
   -webkit-box-shadow: 0 0 30px 1px #CCCCCC;
@@ -32,4 +46,11 @@ body {
   background-color: #FF7777;
   color: #FFFFFF;
   width: 150px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
