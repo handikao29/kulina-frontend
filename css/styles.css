@@ -31,4 +31,5 @@ body {
 .orange-button {
   background-color: #FF7777;
   color: #FFFFFF;
+  width: 150px;
 }
