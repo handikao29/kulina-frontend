@@ -1,9 +1,30 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
 .font-grey {
   color: #AAAAAA;
 }
-.grey {
+
+.bg-grey {
   background-color: #EEEEEE;
+}
+
+.image-box {
+  text-align: center;
+}
+
+.text-box{
+  padding: 10%;
+}
+.job-box {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.orange-button {
+  background-color: #FF7777;
+  color: #FFFFFF;
 }
